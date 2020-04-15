@@ -1,14 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
-// import './scss/main.scss';
+import Home from './components/home';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      {/* <div>{Home}</div> */}
+      <Home/>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          ksbdkjs
+          Why Routing here?
         </p>
         <a
           className="App-link"
@@ -16,9 +18,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          skdskl;d
+          Ale to jest powalone!
         </a>
       </header>
+  
     </div>
   );
 }
