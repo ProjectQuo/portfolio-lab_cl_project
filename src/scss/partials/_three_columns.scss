@@ -1,0 +1,42 @@
+.three_container {
+    display: flex;
+    height: 384px;
+    width: 1900px;
+    background: transparent url("./../../assets/3ColumnsBackground.png") 0% 0% no-repeat padding-box;
+    opacity: 1;
+    justify-content: space-evenly;
+    align-items: center;
+    .column {
+        width: 434px;
+        height: 252px;
+        // border: 1px solid black;
+
+        .rows {
+            // border: 2px solid red;
+        }
+        .row_1 {
+            font-size: 122px;
+            font-weight: 300;
+            letter-spacing: 0px;
+            color: #5e5322;
+            opacity: 1;
+        }
+        .row_2 {
+            font-size: 22px;
+            font-weight: 400;
+            letter-spacing: -0.36px;
+            color: #3c3c3c;
+            opacity: 1;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        .row_3 {
+            font-size: 16px;
+            font-weight: 400;
+            font-family: $font-alt;
+            letter-spacing: -0.32px;
+            color: #3c3c3c;
+            opacity: 1;
+        }
+    }
+}
