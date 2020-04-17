@@ -5,6 +5,8 @@ import HomeThreeColumns from './three_columns';
 import HomeMain from './home_main';
 import HomeFooter from './home_footer';
 import AboutUs from "./about_us";
+import WhomToHelp from "./whom_to_help";
+
 
 
 const Home = () => {
@@ -18,6 +20,7 @@ const Home = () => {
                 <HomeMain />
             </main>
             <AboutUs/>
+            <WhomToHelp/>
             <footer><HomeFooter /></footer>
         </>
     )
