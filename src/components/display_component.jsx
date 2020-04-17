@@ -1,7 +1,7 @@
 import React from "react";
 
 const DisplayComp = () => {
-  console.log("home_footer");
+  console.log("DisplayComp");
 
   return (
     <>
