@@ -1,12 +1,13 @@
 import React from "react";
-import ContactComp from "./contact_component";
+import { Element } from 'react-scroll';
+import ContactComp from "./ContactComponent";
 
 
 const HomeFooter = () => {
     console.log('home_footer');
 
     return (
-        <>
+        <Element name="contactUs">
             <div className="footer_container">
                 <div className="footer_background" />
                 <ContactComp />
@@ -16,7 +17,7 @@ const HomeFooter = () => {
                 </div>
                 <div className="footer_copyright">Copyright by Coders Lab</div>
             </div>
-        </>
+        </Element>
     )
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 
-const HomeThreerows = () => {
-    console.log('HomeThreerows');
+const ThreeColumns = () => {
+    console.log('ThreeColumns');
 
     return (
         <>
@@ -26,4 +26,4 @@ const HomeThreerows = () => {
     )
 }
 
-export default HomeThreerows;
+export default ThreeColumns;

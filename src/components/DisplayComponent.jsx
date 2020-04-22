@@ -6,11 +6,6 @@ const DisplayComp = () => {
   return (
     <>
       <div className="whom_display_1">
-        <div className="display_1_text">
-          W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi
-          współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i
-          czego potrzebują.
-        </div>
         <div className="display_row">
           <div className="display_col_1">
             <div className="display_name">Fundacja “Dbam o Zdrowie”</div>

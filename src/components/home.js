@@ -1,11 +1,11 @@
 import React from "react";
 
-import HomeHeader from './home_header';
-import HomeThreeColumns from './three_columns';
-import HomeMain from './home_main';
-import HomeFooter from './home_footer';
-import AboutUs from "./about_us";
-import WhomToHelp from "./whom_to_help";
+import ThreeColumns from './ThreeColumns';
+import FourSteps from './FourSteps';
+import HomeFooter from './HomeFooter';
+import AboutUs from "./AboutUs";
+import PaginatedSection from "./PaginatedSection";
+import HomeHeader from "./HomeHeader";
 
 
 
@@ -16,11 +16,11 @@ const Home = () => {
         <>
             <header><HomeHeader /></header>
             <main>
-                <HomeThreeColumns />
-                <HomeMain />
+                <ThreeColumns />
+                <FourSteps />
             </main>
             <AboutUs/>
-            <WhomToHelp/>
+            <PaginatedSection/>
             <footer><HomeFooter /></footer>
         </>
     )
