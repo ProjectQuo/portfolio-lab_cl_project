@@ -1,7 +1,5 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-import ScrollComponent from "./ScrollComponent";
 import HomeNav from "./HomeNav";
 
 const HomeHeader = () => {
