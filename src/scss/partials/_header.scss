@@ -16,13 +16,16 @@
 .header_elements {
     // border: 1px dotted yellow;
     width: 873px;
+    display: flex;
+    justify-content: flex-end;
 }
 .nav {
     // border: 1px solid blue;
-    width: 683px;
+    width: 100%;
     height: 95px;
     position: relative;
-    left: 190px;
+    left: 690px;
+    right: auto;
     margin-top: 37px;
 
     .nav_login {

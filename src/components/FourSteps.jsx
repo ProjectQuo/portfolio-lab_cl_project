@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Element } from 'react-scroll';
 
 const FourSteps = () => {
@@ -33,7 +34,7 @@ const FourSteps = () => {
                                 <div className="row_3s rows">kurier przyjedzie w dowolnym terminie</div>
                             </div>
                         </div>
-                        <a href="steps_button" className="steps_button"><div>ODDAJ RZECZY</div></a>
+                        <Link className="steps_button" to="/logowanie">ODDAJ RZECZY</Link>
                     </Element>
                 </div>
             </div>

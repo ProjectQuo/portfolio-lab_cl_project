@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import HomeNav from "./HomeNav";
 
 const HomeHeader = () => {
@@ -16,8 +16,10 @@ const HomeHeader = () => {
                             <h1 className="intro_banner">Zacznij pomagać!<br />Oddaj niechciane rzeczy w zaufane ręce</h1>
                             <div className="intro_decor" />
                             <div className="intro_buttons">
-                                <a href="/" className="intro_button"><div>ODDAJ RZECZY</div></a>
-                                <a href="/" className="intro_button"><div>ZORGANIZUJ ZBIÓRKĘ</div></a>
+                                {/* <a href="/" className="intro_button"><div>ODDAJ RZECZY</div></a>
+                                <a href="/" className="intro_button"><div>ZORGANIZUJ ZBIÓRKĘ</div></a> */}
+                                <Link className="intro_button" to="/logowanie">ODDAJ RZECZY</Link>
+                                <Link className="intro_button" to="/logowanie">ZORGANIZUJ ZBIÓRKĘ</Link>
                             </div>
                         </div>
                     </div>
