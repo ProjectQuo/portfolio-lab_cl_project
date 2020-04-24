@@ -11,9 +11,11 @@
   width: 1900px;
   opacity: 0.3;
   position: absolute;
+  z-index: 1;
 }
 .footer_content {
   // border: 1px solid black;
+  position: relative;
   width: 700px;
   height: 800px;
   display: flex;
@@ -21,7 +23,7 @@
   justify-content: center;
   align-items: center;
   margin: 0px 100px 300px auto;
-
+  z-index: 10;
   .footer_header {
     width: 380px;
     height: 52px;
@@ -30,7 +32,7 @@
     font-weight: 600;
     letter-spacing: -0.76px;
     color: $color-main;
-    margin: 10px auto 20px auto;
+    margin: 30px auto 20px auto;
     // border: 1px solid red;
   }
   .footer_decor {
@@ -45,31 +47,116 @@
   .footer_form {
     width: 100%;
     height: 400px;
-    border: 1px solid black;
+    // border: 1px solid black;
     margin: 30px 0 0 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .fot_form_name_email_label {
+    margin: 20px auto 5px auto;
+    font-family: $font-base;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px;
+    letter-spacing: 0px;
+    color: $color-main;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .fot_form_label {
+    display: flex;
+    height: 100%;
+    width: 50%;
+    // border: 1px solid red;
+    align-items: flex-start;
+  }
+  .fot_form_name_email_input {
+    // border: 1px solid red;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $color-main;
+    margin: 20px auto 5px auto;
+  }
+
+  .fot_form_input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    display: flex;
+    height: 100%;
+    width: 50%;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-right: 50px;
+    text-shadow: 1px 1px; 
+  }
+  .fot_form_textarea_label {
+    font-family: $font-base;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 1px;
+    letter-spacing: 0px;
+    color: $color-main;
+    opacity: 1;
+    display: flex;
+    margin: 40px 0  15px 0;
+  }
+  .fot_form_textarea_input {
+    width: 93%;
+    height: 6rem;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    margin: 10px auto 15px 0;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+
+  }
+  .fot_form_button {
+    height: 60px;
+    width: 120px;
+    font-size: 20px;
+    text-shadow: 1px 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 6% 0 auto;
+  }
+  .fot_form_button:hover {
+    border: 1.5px solid $color_main;
+    transition: 0.4s;
+  }
+  .fot_form_button:active {
+    background-color: rgba(179, 169, 169, 0.616);
+    transition: 0.1s;
   }
 }
 .footer_media {
-    height: 40px;
-    width: 100px;
-    // border: 1px solid red;
-    display: flex;
-    justify-content: space-around;
-    margin: 0 90px 0 auto;
-    
-    .med {
-        height: 30px;
-        width: 30px;
-        background-repeat: no-repeat;
-        background-size: contain;
-    }
-    .fb {
-        background-image: url("./../../assets/Facebook.png");    
-    }
-    .insta {
-        background-image: url('./../../assets/Instagram.png');
-    }
+  height: 40px;
+  width: 100px;
+  // border: 1px solid red;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 90px 0 auto;
+
+  .med {
+    height: 30px;
+    width: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .fb {
+    background-image: url("./../../assets/Facebook.png");
+  }
+  .insta {
+    background-image: url("./../../assets/Instagram.png");
+  }
 }
 .footer_copyright {
   width: 250px;
