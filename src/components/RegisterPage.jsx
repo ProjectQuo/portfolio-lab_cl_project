@@ -1,28 +1,42 @@
 import React from "react";
 import NavRegLog from "./NavRegLog";
+import { Link } from "react-router-dom";
 
-export const RegisterPage = () => {
+export class RegisterPage extends React.Component {
+  handleChange = (event) => {
+    this.setState({
+      [event.target.name]: event.target.value,
+    });
+  };
+
+  handleSubmit = (event) => {
+    event.preventDefault();
+    console.log(this.state);
+  };
+  
+  render () {
   return (
     <>
       <NavRegLog />
       <div className="RegisterPage">
-        <div className="register_container">
+        <form onSubmit={this.handleSubmit} className="register_container">
           <h1>Załóż konto</h1>
           <div className="reg_decor"></div>
           <div className="reg_login_container">
             <label className="reg_log_label">Email</label>
-            <input className="reg_log_input"/>
+            <input onChange={this.handleChange} name="setEmail" className="reg_log_input"/>
             <label className="reg_log_label">Hasło</label>
-            <input className="reg_log_input"/>
+            <input onChange={this.handleChange} name="setPassword" className="reg_log_input"/>
             <label className="reg_log_label">Powtórz hasło</label>
-            <input className="reg_log_input"/>
+            <input onChange={this.handleChange} name="repeatPassword" className="reg_log_input"/>
           </div>
           <div className="reg_button_bar">
-            <a href="/" className="reg_register_button">Zaloguj się</a>
-            <a href="/" className="reg_register_button">Załóż konto</a>
+            <Link to="/logowanie"  className="reg_register_button">Zaloguj się</Link>
+            <button type="submit" className="reg_register_button">Załóż konto</button>
           </div>
-        </div>
+        </form>
       </div>
     </>
   );
-};
+}
+}

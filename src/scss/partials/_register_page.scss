@@ -47,6 +47,7 @@ margin: 10px auto 10px 15px;
     border: 0;
     outline: 0;
     background: transparent;
+    font-size: 22px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.342);
     margin: 2px 15px 2px 15px;
 }
@@ -56,12 +57,16 @@ margin: 10px auto 10px 15px;
     justify-content: space-around;
 }
 .reg_register_button {
-    font-size: 20px;
-    margin: 2rem auto 1rem auto;
+    font-size: 22px;
+    margin: 3rem auto 1rem auto;
     text-decoration: none;
     color: $color_main;
-    border: 0.5px solid $color_main 0.3;
-    padding: 5px 5px 5px 5px;
+    // border: 0.5px solid $color_main 0.3;
+    // padding: 5px 5px 5px 5px;
+    padding: 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
 }
 .reg_register_button:hover {
     text-shadow:1px 1px $color_main;

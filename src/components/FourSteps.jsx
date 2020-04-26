@@ -9,7 +9,7 @@ const FourSteps = () => {
         <>
             <div className="steps">
                 <div className="steps_elems">
-                    <Element name="whatsAboutSection">
+                    <Element id="whatsAboutSection" name="whatsAboutSection">
                         <div className="steps_header">Wystarczą  4 proste kroki</div>
                         <div className="steps_header_decor"></div>
                         <div className="steps_cols_container">
