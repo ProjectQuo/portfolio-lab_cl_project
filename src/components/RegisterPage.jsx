@@ -11,9 +11,11 @@ export class RegisterPage extends React.Component {
 
   handleSubmit = (event) => {
     event.preventDefault();
+    // let isValid = true;
+    // if (email.)
     console.log(this.state);
   };
-  
+
   render () {
   return (
     <>

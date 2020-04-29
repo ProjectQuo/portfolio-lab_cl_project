@@ -11,6 +11,8 @@ export class LoginPage extends React.Component {
     repeatPassword: '',
     email: '',
     message: '',
+    passwordValid: false,
+    emailValid: false,
   };
 
   handleChange = (event) => {
