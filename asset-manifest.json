@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bjportfolio/static/css/main.1008b628.chunk.css",
+    "main.js": "/bjportfolio/static/js/main.cf88abd8.chunk.js",
+    "main.js.map": "/bjportfolio/static/js/main.cf88abd8.chunk.js.map",
+    "runtime-main.js": "/bjportfolio/static/js/runtime-main.79edbce5.js",
+    "runtime-main.js.map": "/bjportfolio/static/js/runtime-main.79edbce5.js.map",
+    "static/js/2.55c3f88f.chunk.js": "/bjportfolio/static/js/2.55c3f88f.chunk.js",
+    "static/js/2.55c3f88f.chunk.js.map": "/bjportfolio/static/js/2.55c3f88f.chunk.js.map",
+    "index.html": "/bjportfolio/index.html",
+    "precache-manifest.a85fc8dc512da1c29153540ea8f17f3e.js": "/bjportfolio/precache-manifest.a85fc8dc512da1c29153540ea8f17f3e.js",
+    "service-worker.js": "/bjportfolio/service-worker.js",
+    "static/css/main.1008b628.chunk.css.map": "/bjportfolio/static/css/main.1008b628.chunk.css.map",
+    "static/js/2.55c3f88f.chunk.js.LICENSE.txt": "/bjportfolio/static/js/2.55c3f88f.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/bjportfolio/static/media/Signature.d87cadf2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.79edbce5.js",
+    "static/js/2.55c3f88f.chunk.js",
+    "static/css/main.1008b628.chunk.css",
+    "static/js/main.cf88abd8.chunk.js"
+  ]
+}
